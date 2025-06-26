@@ -1,0 +1,83 @@
+
+
+/* Navigation bar  */
+    #navbar {
+         /* border: solid 2px rgb(132, 132, 182); */
+        height: 100px;
+         display: flex;
+        justify-content: space-around;
+        align-items: center;    
+    }
+
+    #navbar a {
+        color: olivedrab;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+
+    #navbar a:hover {
+        color: blueviolet;
+    }
+
+/* Global */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        background-color: rgb(162, 208, 231);
+    }
+    h1 {
+        color: rgb(42, 72, 223);
+        font-size: 80px;
+    }
+
+    p {
+        color: rgb(183, 59, 42);
+    }
+
+    img {
+        width: 50%;   
+    }
+
+    .rounded {
+        border-radius: 5%;
+    }
+
+/* index.html */
+    .para1 {
+        font-family: cursive;
+        color: black;
+        font-size: xx-large ;
+    }
+
+    .demo2 {
+        font-variant: small-caps;
+        color: darkgreen;
+    }
+
+    .plane {
+        width: 20%;
+    }
+
+
+/* about.html */
+
+
+/* research.html */
+
+    .womble {
+        width: 90%;
+    }
+
+/* gallery.html */
+
+    .gallery {
+        width: 30%;
+    }
+
+    #gallery {
+        /* border: solid 2px red; */
+        display: flex;
+        justify-content: space-evenly;
+    }
+
