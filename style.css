@@ -1,7 +1,11 @@
 
+* {
+    box-sizing: border-box;
+}
+
 
 /* Navigation bar  */
-    #navbar {
+    nav {
          /* border: solid 2px rgb(132, 132, 182); */
         height: 100px;
          display: flex;
@@ -9,30 +13,40 @@
         align-items: center;    
     }
 
-    #navbar a {
+    nav a {
         color: olivedrab;
         font-size: 40px;
         font-family: Arial, Helvetica, sans-serif;
         text-decoration: none;
     }
 
-    #navbar a:hover {
+    nav a:hover {
         color: blueviolet;
     }
 
 /* Global */
+    .sevillana-regular {
+    font-family: "Sevillana", cursive;
+    font-weight: 500;
+    font-style: normal;
+    }
+
+
     body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding-bottom: clamp(3rem, 5vw, 5rem);
+        font-family: fantasy;
         text-align: center;
         background-color: rgb(162, 208, 231);
-    }
+            }
     h1 {
-        color: rgb(42, 72, 223);
+        color: rgb(39, 69, 165);
         font-size: 80px;
     }
 
     p {
         color: black;
+        font-size: larger;
     }
 
     img {
@@ -43,7 +57,26 @@
         border-radius: 5%;
     }
 
-/* index.html */
+    .side-by-side {
+        display: flex;
+        justify-content: space-evenly;
+
+
+    }
+
+    .right-side {
+        border: solid red;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .left-side {
+        border: solid blue;
+        display: flex;
+        justify-content: flex-start;
+    }
+ /* index.html */
+
     .para1 {
         font-family: cursive;
         color: black;
@@ -82,25 +115,72 @@
     }
 
     #types {
-        border: solid 2px red;
+        /* border: solid 2px red; */
         height: 400px;
         display: flex;
-        /* justify-content: space-around; */
-        /* align-items: baseline;     */
+        justify-content: space-around;
+        align-items: baseline;    
     }
 
 
-/*   
-    #types .fixedwing img {
-        width: 70%;
-    } */
-
-    /* #types .flexwing img {
-        width: 80%;
-    } */
 
     /* fix for image layout*/
     .flexwing {
-        border: solid 2px green;
+        /* border: solid 2px green; */
         width: 50%;
     }
+
+    /* footer.html */
+    /* The HTML should be copied to the bottom of each page once happy */
+    footer {
+        border: solid black;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: clamp(3rem, 5vw, 5rem);
+        padding: 0.5em;
+        background-color: inherit;
+        font-size: 1em;
+        z-index: 1000;
+        display: flex;  
+        justify-content: center;
+    }
+
+    footer div {
+        width: 100%;
+    }
+        .social {
+            display: flex;
+            justify-content: space-evenly;
+        }
+                /* Style all font awesome icons */
+                .fa {
+                padding: 20px;
+                font-size: 2em;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 50%;
+                }
+
+                .fa-facebook {
+                background: #3B5998;
+                color: white;
+                }
+
+                .fa-linkedin {
+                background: #007bb5;
+                color: white;
+                }
+
+                .fa-instagram {
+                background: #125688;
+                color: white;
+                }
+
+                .email {
+                    padding-right: 10%;
+                    display: flex;
+                    justify-content: flex-end;
+                }
