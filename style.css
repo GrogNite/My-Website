@@ -138,7 +138,7 @@
 
     /* footer.html */
     /* The HTML should be copied to the bottom of each page once happy */
-    footer {
+    /* OLD_footer {
         border: solid black;
         position: fixed;
         bottom: 0;
@@ -147,47 +147,39 @@
         height: clamp(3rem, 5vw, 5rem);
         padding: 0.5em;
         background-color: inherit;
-        font-size: 1em;
+        font-size: 1rem;
         z-index: 1000;
         display: flex;  
         justify-content: center;
+    } */
+
+    footer {
+        border: solid black;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        margin-top: 0.5em;
+        padding: 0.5em;
     }
 
     footer div {
         width: 100%;
+        display: flex;
+
     }
         .social {
             display: flex;
             justify-content: space-evenly;
         }
-                /* Style all font awesome icons */
-                .fa {
-                padding: 20px;
-                font-size: 2em;
-                width: 50px;
-                text-align: center;
-                text-decoration: none;
-                border-radius: 50%;
-                }
 
-                .fa-facebook {
-                background: #3B5998;
-                color: white;
-                }
 
-                .fa-linkedin {
-                background: #007bb5;
-                color: white;
-                }
 
-                .fa-instagram {
-                background: #125688;
-                color: white;
-                }
+    .email {
+        padding-right: 10%;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+    }
 
-                .email {
-                    padding-right: 10%;
-                    display: flex;
-                    justify-content: flex-end;
-                    align-content: center;
-                }
+    
