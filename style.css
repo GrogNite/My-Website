@@ -57,6 +57,16 @@
         border-radius: 5%;
     }
 
+    .justify-left {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    /* .justify-right {
+        display: flex;
+        justify-content: flex-end;
+    } */
+
     .side-by-side {
         display: flex;
         justify-content: space-evenly;
@@ -77,16 +87,7 @@
     }
  /* index.html */
 
-    .para1 {
-        font-family: cursive;
-        color: black;
-        font-size: xx-large ;
-    }
 
-    .demo2 {
-        font-variant: small-caps;
-        color: darkgreen;
-    }
 
     .plane {
         width: 20%;
@@ -98,9 +99,7 @@
 
 /* research.html */
 
-    .womble {
-        width: 90%;
-    }
+
 
 /* microlighting.html */
 
@@ -154,32 +153,33 @@
     } */
 
     footer {
-        border: solid black;
+        /* border: solid black; */
         position: fixed;
         bottom: 0;
         left: 0;
         width: 100%;
         margin-top: 0.5em;
         padding: 0.5em;
+        z-index: 1000;
     }
 
     footer div {
         width: 100%;
         display: flex;
-
     }
+
         .social {
+            padding: 0 .05em;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: flex-start;
+            align-items: center;
         }
-
-
-
+        
     .email {
         padding-right: 10%;
         display: flex;
-        justify-content: space-evenly;
-        align-content: center;
+        justify-content: end;
+        
     }
 
     
