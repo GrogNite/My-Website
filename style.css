@@ -4,13 +4,7 @@
 }
 
 
-/* Navigation bar  */
-
-
-
-
     nav {
-         /* border: solid 2px rgb(132, 132, 182); */
         position: fixed;
         top: 0;
         width: 100%;
@@ -27,15 +21,11 @@
         font-family: Arial, Helvetica, sans-serif;
         text-decoration: none;
     }
-
-    
-   
-
+  
     nav a:hover {
         color: blueviolet;
     }
 
-/* Global */
     .sevillana-regular {
     font-family: "Sevillana", cursive;
     font-weight: 500;
@@ -80,15 +70,6 @@
         justify-content: flex-start;
     }
 
-
-
-    /* .justify-right {
-        display: flex;
-        justify-content: flex-end;
-    } */
-
-    
-
     .right-side {
         border: solid red;
         display: flex;
@@ -100,36 +81,22 @@
         display: flex;
         justify-content: flex-start;
     }
- /* index.html */
-
-
 
     .plane {
         width: 20%;
     }
 
 
-/* about.html */
-
-
-/* research.html */
-
-
-
-/* microlighting.html */
-
     .gallery {
         width: 30%;
     }
 
     #gallery {
-        /* border: solid 2px red; */
         display: flex;
         justify-content: space-evenly;
     }
 
     #types {
-        /* border: solid 2px red; */
         height: 400px;
         display: flex;
         justify-content: space-around;
@@ -144,22 +111,17 @@
         margin: 5em;
     }
 
-    /* fix for image layout*/
     .flexwing {
-        /* border: solid 2px green; */
         width: 50%;
     }
     
-
-    /* footer.html */
-    
+  
     .side-by-side {
         display: flex;
         justify-content: space-evenly;
     }
 
     footer {
-        /* border: solid black; */
         position: fixed;
         bottom: 0;
         width: 100%;
